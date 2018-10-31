@@ -77,6 +77,7 @@ class App extends Component {
     
     </label>
 
+   /**El signin aca no tiene mucho sentido, pues toca ver toda la pagina para desppues hacer signin, deberia ser la primera opcion!*/
     <AccountsUIWrapper />
     
    { this.props.currentUser ?
