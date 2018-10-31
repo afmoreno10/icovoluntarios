@@ -7,6 +7,8 @@ import { Formualrios } from '../formulario/formulario.js';
 import Task from './Task.js';
 import AccountsUIWrapper from './AccountsUIWrapper.js';
 
+
+//Dben modularizar mejor su aplicación, es mejor que tengan componentes que muestren una sola cosa y luego los llamen acá, en lugar de meter todo acá.
 class App extends Component {
   constructor(props) {
     super(props);
@@ -59,6 +61,8 @@ class App extends Component {
     });
  }
 
+ // Debería haber un componente para una sección de preguntas, este podría suscribirse a una colección de preguntas y verificar perrmisos
+// pues en este momento cualquiera tiene permiso de hacer preguntas y borrar las de los demás
  render() {
   return (
     <div className="container">
