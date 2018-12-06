@@ -357,6 +357,7 @@
   <div id='map-leaflet' class='map'> </div>
 
   <script>
+    <!--Los access tokens deberían estar en un archivo de configuración, revisar variables de entorno-->
     L.mapbox.accessToken = "pk.eyJ1IjoibWFyaWFjYW1pbGEyIiwiYSI6ImNqcGF0cmF0ZDAzZngzd29mdDh3d2t4NHUifQ.Q6g4saAcNs6EBl3B6C3RPA";
     var mapLeaflet = L.mapbox.map("map-leaflet", "mapbox.light").setView([4.1262499, -74.5182948], 6);
     L.marker([1.5263638, -75.3948839]).addTo(mapLeaflet);
