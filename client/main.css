@@ -88,9 +88,9 @@ h2 {
   text-transform: uppercase;
   padding: 50px 0;
 }
-p {
+p{
   text-align: center;
-  text-align: justify;
+  font-family: montserrat-regular;
 }
 .text-sec {
   /*opacity: 0;*/
@@ -116,6 +116,11 @@ p {
 .imgEnlace{
   padding-left: 10%;
   padding-right: 10%;
+}
+.container-fluid-formulario{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 40px;
 }
 
 /* Botones de descarga */

@@ -17,7 +17,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css"/>
   <link rel="stylesheet" type="text/css" href="css/util.css"/>
   <link rel="stylesheet" type="text/css" href="css/main.css"/>
-  <link rel="Stylesheet" href="main.css"/>
+  <link rel="Stylesheet" type="text/css" href="main.css"/>
 
 </head>
 
@@ -110,14 +110,13 @@
 </template>
 
 <template name="inscribete">
-  <div class="container-fluid formulario">
-    <form class="form-horizontal">
-      <fieldset>
+  <!-- Form Name -->
+  <p>Si tienes interés en pertenecer a alguno de nuestras iniciativas de voluntariado, por favor completa el siguiente formulario en línea, marcando la o las opciones de tu interés.</p>
+  <form>
+    <div class="container-fluid-formulario">
+      <!-- Text input-->
+      <div class="form-horizontal">
 
-        <!-- Form Name -->
-        <legend>Información Icovoluntarios</legend>
-        <p>Ingrese aquí su información para el voluntariado al que desea pertenecer.</p>
-        <!-- Text input-->
         <div class="form-group">
           <label class="col-md-4 control-label" for="apellidos">Apellidos</label>
           <div class="col-md-4">
@@ -135,12 +134,51 @@
 
         <!-- Select Basic -->
         <div class="form-group">
-          <label class="col-md-4 control-label" for="genero">Género</label>
+          <label class="col-md-4 control-label" for="genero">Carrera</label>
           <div class="col-md-4">
             <select id="genero" name="genero" class="form-control">
-              <option value="1">Hombre</option>
-              <option value="2">Mujer</option>
-              <option value="3">Otro</option>
+              <option value="1">Administración</option>
+              <option value="2">Antropología</option>
+              <option value="3">Arquitectura</option>
+              <option value="4">Arte</option>
+              <option value="5">Biología</option>
+              <option value="6">Ciencia Política</option>
+              <option value="7">Contaduría Internacional</option>
+              <option value="8">Derecho</option>
+              <option value="9">Diseño</option>
+              <option value="10">Economía</option>
+              <option value="11">Filosófía</option>
+              <option value="12">Física</option>
+              <option value="13">Geociencias</option>
+              <option value="14">Gobierno y Asuntos Públicos</option>
+              <option value="15">Historia</option>
+              <option value="16">Historia del Arte</option>
+              <option value="17">Ingeniería Ambiental</option>
+              <option value="18">Ingeniería Biomédica</option>
+              <option value="19">Ingenería Civil</option>
+              <option value="20">Ingenería de Sistemas y Computación</option>
+              <option value="21">Ingenería Eléctrica</option>
+              <option value="22">Ingenería Eléctrónica</option>
+              <option value="23">Ingenería Industrial</option>
+              <option value="24">Ingenería Mecánica</option>
+              <option value="25">Ingenería Química</option>
+              <option value="26">Lenguas y Cultura</option>
+              <option value="27">Licenciatura en Artes</option>
+              <option value="28">Licenciatura en Ciencias Naturales</option>
+              <option value="29">Licenciatura en Ciencias Sociales</option>
+              <option value="30">Licenciatura en Educación para la Primera Infancia</option>
+              <option value="31">Licenciatura en Humanidades</option>
+              <option value="32">Licenciatura en Humanidades</option>
+              <option value="33">Licenciatura en Matemáticas</option>
+              <option value="34">Licenciatura en Humanidades</option>
+              <option value="35">Literatura</option>
+              <option value="36">Matemáticas</option>
+              <option value="37">Medicina</option>
+              <option value="38">Microbiología</option>
+              <option value="39">Música</option>
+              <option value="40">Narrativas Digitales</option>
+              <option value="41">Psicología</option>
+              <option value="42">Química</option>
             </select>
           </div>
         </div>
@@ -152,7 +190,9 @@
             <input id="email" name="email" type="text" placeholder="Email" class="form-control input-md" required="">
           </div>
         </div>
+      </div>
 
+      <div class="form-horizontal">
         <!-- File Button -->
         <div class="form-group">
           <label class="col-md-4 control-label" for="filebutton">Hoja de vida</label>
@@ -186,13 +226,15 @@
           </div>
         </div>
 
-        <div class="form-group">
-          <button type="submit" name="button">Enviar</button>
+          <div class="type-2">
+            <button type="submit" name="button" class="btn btn-1" role="link">
+              <span class="txt">Enviar</span>
+              <span class="round"><i class="fa fa-chevron-right"></i></span>
+            </button>
+          </div>
         </div>
-
-      </fieldset>
-    </form>
-  </div>
+      </div>
+  </form>
 </template>
 
 <template name="intro">
@@ -207,7 +249,7 @@
   <div class="container-fluid-proyectos">
     <div class="text-sec">
       <h2>Alfabetización Digital</h2>
-      <p>La reincorporación a la vida social y laboral son importantes para un posconflicto exitoso, es por ello que los excombatientes necesitan aprender las herramientas adecuadas para poder lograrlo. El programa de Alfabetización Digital consiste en enseñarle a los excombatientes el uso de herramientas digitales de uso diario, como lo son los programas pertenecientes a la suite de Microsoft Office: Word, Excel, PowerPoint, entre otros.<br><br>Se un profesor y ayuda a las personas que te necesitan para construir una Colombia donde realmente nos ayudamos los unos a los otros y deseamos que todos salgamos adelante.
+      <p class="parrafo">La reincorporación a la vida social y laboral son importantes para un posconflicto exitoso, es por ello que los excombatientes necesitan aprender las herramientas adecuadas para poder lograrlo. El programa de Alfabetización Digital consiste en enseñarle a los excombatientes el uso de herramientas digitales de uso diario, como lo son los programas pertenecientes a la suite de Microsoft Office: Word, Excel, PowerPoint, entre otros.<br><br>Se un profesor y ayuda a las personas que te necesitan para construir una Colombia donde realmente nos ayudamos los unos a los otros y deseamos que todos salgamos adelante.
       </p>
     </div>
     <div class="text-sec">
