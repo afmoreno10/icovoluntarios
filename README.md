@@ -20,7 +20,7 @@ This project was created with Meteor, React, dhtmlxScheduler and MongoDB.
 
 ### How do you run?
 
-- If you try to run the project locally, you need to download the repository content. Remember it is necessary to have locally installed Meteor. After verifying the above, you must open the operating system console and through this you must navigate to reach the folder where the file mentioned above was downloaded. There you must execute the command "meteor", this in the case of windows. Finally, you must add the address "http: // localhost: 3000" in the browser and you can see the application displayed.
+- If you try to run the project locally, you need to download the repository content. Remember it is necessary to have locally installed Meteor, MapBox. After verifying the above, you must open the operating system console and through this you must navigate to reach the folder where the file mentioned above was downloaded. There you must execute the command "meteor", this in the case of windows. Finally, you must add the address "http: // localhost: 3000" in the browser and you can see the application displayed.
 
 - But you can trie visit the web page with the following URL: http://icovoluntarios.herokuapp.com/.
 
